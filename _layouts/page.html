@@ -1,10 +1,23 @@
 ---
 layout: default
 ---
+<!-- Hidden Social Preview Image -->
+{% if page.image %}
+{% assign social_preview_image = page.image %}
+{% else %}
+{% assign social_preview_image = page.social_preview_image %}
+{% endif %}
+<div class="text-center mx-auto mb-5" style="display: none;">
+  <img class="featured-image text-center mx-auto rounded" src="{{ site.baseurl }}/{{ social_preview_image }}"
+    alt="{{ page.title }}">
+</div>
+<!-- End Featured Image -->
+
 <!-- Post Featured Image -->
 {% if page.image %}
 <div class="text-center mx-auto mb-5">
-  <img class="featured-image text-center mx-auto rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
+  <img class="featured-image text-center mx-auto rounded" src="{{ site.baseurl }}/{{ page.image }}"
+    alt="{{ page.title }}">
 </div>
 {% endif %}
 <!-- End Featured Image -->
@@ -20,8 +33,8 @@ layout: default
   </div>
 
   {% if page.comments == true %}
-  <div id="comments">             
-      {% include disqus.html %} 
+  <div id="comments">
+    {% include disqus.html %}
   </div>
   {% endif %}
 
