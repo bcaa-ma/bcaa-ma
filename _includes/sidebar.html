@@ -1,10 +1,12 @@
-<div class="sidebar sticky-top">        
+<div class="sidebar sticky-top">
     <div class="sidebar-section">
-        <h5><span>Newsletter</span></h5>
-        {% include newsletter.html %}
+        <h5><span>Upcoming Events</span></h5>
+        <!-- <img src="{{site.baseurl}}/assets/images/ad.png"> -->
+        <iframe
+            src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23fdd93d&amp;ctz=America%2FNew_York&amp;src=Y19mOHBoNHU0dGNyazRvbHNuN3RqZHRwZmlqb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4uY2hpbmEjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23D81B60&amp;color=%234285F4&amp;showPrint=0&amp;showTitle=0&amp;mode=AGENDA&amp;showCalendars=0&amp;showDate=0&amp;showTabs=0&amp;showNav=1"
+            style="border:solid 1px #777" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
     </div>
     <div class="sidebar-section">
-        <h5><span>Your Ad Here</span></h5>
-        <img src="{{site.baseurl}}/assets/images/ad.png">
+        {% include wechat-official-account.html %}
     </div>
 </div>

@@ -2,14 +2,8 @@
 layout: page
 title: About
 permalink: "/about/"
-image: assets/images/screenshot.png
+#image: assets/images/screenshot.png
 ---
 
-This website is a demonstration to see **Affiliates Jekyll theme** in action. 
-
-The theme is compatible with Github pages. This demo is created with Github Pages and hosted with Github. 
-
-Everything is ready for your quick setup: Blog, Categories, About, Privacy Policy, Terms of Use, Contact form, Mailchimp
-
-[Get it here](https://bootstrapstarter.com/jekyll-theme-memoirs/)
+FOUNDED IN 2016, BELMONT CHINESE AMERICAN ASSOCIATION (BCAA) IS A 501(C)(3) NON-PROFIT ORGANIZATION WITH CORE MISSION TO PRESERVE THE CULTURAL HERITAGE, AND TO PROMOTE PARTICIPATION OF CHINESE AMERICANS IN THE CULTURAL AND CIVIC LIFE OF OUR COMMUNITY.
 
