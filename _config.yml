@@ -55,7 +55,10 @@ defaults:
   - scope:
       path: ""
     values:
-      social_preview_image: assets/images/social-preview.png
+      # default og:image for SEO
+      image: assets/images/social-preview.png
+      # each page can override the default og:image by specifying a featured image in its front matter
+      featured_image: true
   # _posts
   - scope:
       path: ""

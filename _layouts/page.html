@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Post Featured Image -->
-{% if page.image %}
+{% if page.image and page.featured_image %}
 <div class="text-center mx-auto mb-5">
   <img class="featured-image text-center mx-auto rounded" src="{{ site.baseurl }}/{{ page.image }}"
     alt="{{ page.title }}">

@@ -16,7 +16,7 @@ post_class: post-template
 
     <div class="col-sm-12">
         <!-- Post Featured Image -->
-        {% if page.image %}<img class="featured-image img-fluid rounded mx-auto d-block"
+        {% if page.image and page.featured_image %}<img class="featured-image img-fluid rounded mx-auto d-block"
             src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
         <!-- End Featured Image -->
         <div class="mainheading">
