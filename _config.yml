@@ -2,7 +2,7 @@ title: "BCAA"
 organization: "Belmont Chinese American Association"
 email: contact@bcaa-ma.org
 timezone: UTC
-baseurl: "/v2"
+baseurl: "/bcaa-ma.github.io"
 permalink: "/:title/"
 # permalink: "/:year/:month/:day/:title/"
 logo: 'assets/images/bcaa-logo.png'
