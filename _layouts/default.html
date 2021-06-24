@@ -31,6 +31,7 @@ gtag('config', '{{site.ganalytics}}');
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{ layout }}">
 
+{% include social-preview-image.html %}
     
 <!-- Menu Navigation
 ================================================== -->
@@ -97,7 +98,7 @@ gtag('config', '{{site.ganalytics}}');
     
 <!-- Container
 ================================================== -->    
-<main class="container">   
+<main class="container">
       {{ content }}  
 </main>
 

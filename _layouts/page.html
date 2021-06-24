@@ -1,17 +1,6 @@
 ---
 layout: default
 ---
-<!-- Hidden Social Preview Image -->
-{% if page.image %}
-{% assign social_preview_image = page.image %}
-{% else %}
-{% assign social_preview_image = page.social_preview_image %}
-{% endif %}
-<div class="text-center mx-auto mb-5" style="display: none;">
-  <img class="featured-image text-center mx-auto rounded" src="{{ site.baseurl }}/{{ social_preview_image }}"
-    alt="{{ page.title }}">
-</div>
-<!-- End Featured Image -->
 
 <!-- Post Featured Image -->
 {% if page.image %}
