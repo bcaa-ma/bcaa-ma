@@ -51,6 +51,11 @@ plugins:
 
 
 defaults:
+  # all files
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/bcaa-logo.png
   # _posts
   - scope:
       path: ""
