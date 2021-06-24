@@ -55,7 +55,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/social-preview.png
+      # image: /assets/images/social-preview.png
   # _posts
   - scope:
       path: ""
