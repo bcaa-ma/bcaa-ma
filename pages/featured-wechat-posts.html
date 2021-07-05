@@ -1,0 +1,20 @@
+---
+layout: page
+title: 微信公众号精选
+permalink: '/featured-wechat-posts/'
+comments: false
+featured_image: false
+---
+
+<div class="row">
+    <div class="list-group">
+        {% for post in site.data.wechatposts %}
+        <a href="{{post.url}}">
+            <div class="d-flex w-100 justify-content-between">
+                <span class="mb-1">{{post.title}} <i class="fas fa-external-link-alt"></i></span>
+                <!-- <small><span class="post-date">{{ post.date | date_to_string }}</span></small> -->
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
