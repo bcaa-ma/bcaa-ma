@@ -19,42 +19,16 @@
             <span>Subscribe <i class="fa-rss fa"></i></span>
         </h5>
         {% include newsletter.html %}
-        <!-- <a
-            href="https://feedburner.google.com/fb/a/mailverify?uri=bcaa-ma&amp;loc=en_US"
-            target="_self"
-        >
-            Subscribe to BCAA News by Email
-            <i class="fa-rss fa"></i>
-        </a> -->
-
-        <!-- <p style="margin-bottom: 0">Subscribe to Our Newsletter</p>
-        <form
-            style="padding: 3px 0px; text-align: center"
-            action="https://feedburner.google.com/fb/a/mailverify"
-            method="post"
-            target="_self"
-            onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=bcaa-ma', '_self');return true"
-        >
-            <p>
-                <input
-                    type="text"
-                    style="width: 100%"
-                    name="email"
-                    placeholder="Enter your email"
-                />
-                <input type="hidden" value="bcaa-ma" name="uri" />
-                <input type="hidden" name="loc" value="en_US" />
-            </p>
-            <p style="margin-bottom: 0">
-                <input type="submit" class="btn btn-outline-secondary btn-sm" value="Subscribe" />
-            </p>
-        </form> -->
     </div>
 
     <div class="sidebar-section">
         <h5>
             <span>关注微信公众号 <i class="fa fa-weixin"></i></span>
         </h5>
-        <img src="{{site.baseurl}}/assets/images/wechat-qrcode.jpeg" />
+        <img
+            class="mx-auto d-block"
+            style="max-width: 140px"
+            src="{{site.baseurl}}/assets/images/wechat-qrcode.jpeg"
+        />
     </div>
 </div>
